@@ -9,7 +9,7 @@
         Title = "Key System",
         Description = "",
         KeyLink = "",
-        Keys = {"baodeptrai"}{"baoxautrai"},
+        Keys = {"baodeptrai"},
         Notifi = {
         Notifications = true,
         CorrectKey = "Running the Script...",
