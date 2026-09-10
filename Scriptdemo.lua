@@ -29,7 +29,7 @@
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "Script Farm"})
+     local Tab1o = MakeTab({Name = "Tổng Hợp Script "})
      
 ------- BUTTON
     
