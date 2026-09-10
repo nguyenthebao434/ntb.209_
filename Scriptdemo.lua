@@ -1,4 +1,3 @@
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
 
        local Window = MakeWindow({
          Hub = {
@@ -22,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        MinimizeButton({
        Image = "https://www.pinterest.com/pin/677158493996762996/",
-       Size = {60, 60},
+       Size = {50, 50},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
        Stroke = false,
@@ -30,7 +29,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "Tổng Hợp Script"})
+     local Tab1o = MakeTab({Name = "Script Farm"})
      
 ------- BUTTON
     
@@ -43,5 +42,22 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 }
 
 loadstring(game:HttpGet("https://pastebin.com/raw/Hc2ZvUN5"))()(Settings)
+  end
+  })
+
+------ Tab
+     local Tab1o = MakeTab({Name = "Script Chest"})
+     
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "Chest Hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://pastebin.com/raw/Hc2ZhvUN5"))()(Settings)
   end
   })
