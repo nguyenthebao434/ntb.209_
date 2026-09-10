@@ -6,7 +6,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
          Animation = "Youtube: Ntb.209_"
          },
         Key = {
-        KeySystem = false,
+        KeySystem = true,
         Title = "Key System",
         Description = "",
         KeyLink = "",
