@@ -2,8 +2,7 @@
        local Window = MakeWindow({
          Hub = {
          Title = "Bảo Đẹp Trai",
-         Animation = "Youtube:
-Bảo Đẹp Trai"
+         Animation = "Youtube: Bảo Đẹp Trai"
          },
         Key = {
         KeySystem = true,
