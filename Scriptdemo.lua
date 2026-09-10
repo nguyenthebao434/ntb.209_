@@ -1,3 +1,4 @@
+
        local Window = MakeWindow({
          Hub = {
          Title = "Bảo Đẹp Trai",
@@ -20,7 +21,7 @@
 
        MinimizeButton({
        Image = "https://www.pinterest.com/pin/677158493996762996/",
-       Size = {60,60},
+       Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
        Stroke = false,
