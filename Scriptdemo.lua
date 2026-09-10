@@ -1,4 +1,3 @@
-
        local Window = MakeWindow({
          Hub = {
          Title = "Bảo Đẹp Trai",
