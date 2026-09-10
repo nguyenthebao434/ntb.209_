@@ -44,20 +44,3 @@
 loadstring(game:HttpGet("https://pastebin.com/raw/Hc2ZvUN5"))()(Settings)
   end
   })
-
------- Tab
-     local Tab1o = MakeTab({Name = "Script Chest"})
-     
-------- BUTTON
-    
-    AddButton(Tab1o, {
-     Name = "Chest Hub",
-    Callback = function()
-	  local Settings = {
-  JoinTeam = "Pirates"; -- Pirates/Marines
-  Translator = true; -- true/false
-}
-
-loadstring(game:HttpGet("https://pastebin.com/raw/Hc2ZhvUN5"))()(Settings)
-  end
-  })
