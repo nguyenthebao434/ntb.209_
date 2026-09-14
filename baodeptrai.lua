@@ -43,5 +43,25 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 }
 
 loadstring(game:HttpGet("https://pastebin.com/raw/Hc2ZvUN5"))()(Setting)
-  end
-  })
+
+-- Tạo Tab mới
+local TabMoi = MakeTab({Name = "Fram Chest Vip"})
+
+-- Tạo nút bấm chạy script trong Tab mới
+AddButton(TabMoi, {
+    Name = "Chest No Key",
+    Callback = function()
+        -- Dán đoạn mã loadstring của script mới vào dưới đây
+        loadstring(game:HttpGet("https://link-script-moi-cua-ban.com"))()
+
+-- Tạo Tab mới
+local TabMoi = MakeTab({Name = "Hop Server"})
+
+-- Tạo nút bấm chạy script trong Tab mới
+AddButton(TabMoi, {
+    Name = "Scrip No Key",
+    Callback = function()
+        -- Dán đoạn mã loadstring của script mới vào dưới đây
+        loadstring(game:HttpGet("https://link-script-moi-cua-ban.com"))()
+    end
+})
