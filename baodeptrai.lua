@@ -43,5 +43,20 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 }
 
 loadstring(game:HttpGet("https://pastebin.com/raw/Hc2ZvUN5"))()(Settings)
+
+------ Tab
+     local Tab1o = MakeTab({Name = "Script Farm"})
+
+------- BUTTON
+
+    AddButton(Tab1o, {
+     Name = "RealKid Hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://pastebin.com/raw/Hc2ZvUN5"))()(Settings)
   end
   })
