@@ -20,48 +20,51 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
     }
   })
 
-       MinimizeButton({
-       Image = "https://www.pinterest.com/pin/677158493996762996/",
-       Size = {60, 60},
-       Color = Color3.fromRGB(10, 10, 10),
-       Corner = true,
-       Stroke = false,
-       StrokeColor = Color3.fromRGB(255, 0, 0)
-      })
-      
------- Tab
-     local Tab1o = MakeTab({Name = "Script Farm"})
-     
-------- BUTTON
-    
-    AddButton(Tab1o, {
-     Name = "RealKid Hub",
+       -- 1. Khởi tạo nút thu nhỏ Menu (Phải để trên cùng)
+MinimizeButton({
+    Image = "https://pinterest.com",
+    Size = {60, 60},
+    Color = Color3.fromRGB(10, 10, 10),
+    Corner = true,
+    Stroke = false,
+    StrokeColor = Color3.fromRGB(255, 0, 0)
+})
+
+-- 2. Tạo Tab số 1: Script Farm
+local Tab1o = MakeTab({Name = "Script Farm"})
+
+-- Tạo Nút 1 trong Tab 1: RealKid Hub
+AddButton(Tab1o, {
+    Name = "RealKid Hub",
     Callback = function()
-	  local Settings = {
-  JoinTeam = "Pirates"; -- Pirates/Marines
-  Translator = true; -- true/false
-}
+        local Settings = {
+            JoinTeam = "Pirates", -- Pirates hoặc Marines
+            Translator = true; -- true hoặc false
+        }
+        loadstring(game:HttpGet("https://pastebin.com"))()(Settings)
+    end
+})
 
-loadstring(game:HttpGet("https://pastebin.com/raw/Hc2ZvUN5"))()(Setting)
+-- 3. Tạo Tab số 2: Fram Chest Vip
+local TabMoi1 = MakeTab({Name = "Fram Chest Vip"})
 
--- Tạo Tab mới
-local TabMoi = MakeTab({Name = "Fram Chest Vip"})
-
--- Tạo nút bấm chạy script trong Tab mới
-AddButton(TabMoi, {
-    Name = "Chest No Key",
+-- Tạo Nút trong Tab 2: Chest No Key
+AddButton(TabMoi1, {
+    Name = "Chest No Key", -- Bạn có thể sửa tên nút này theo ý muốn
     Callback = function()
-        -- Dán đoạn mã loadstring của script mới vào dưới đây
-        loadstring(game:HttpGet("https://link-script-moi-cua-ban.com"))()
+        -- Dán link script nhặt rương thực tế của bạn vào dưới đây thay cho link mẫu này
+        loadstring(game:HttpGet("https://link-script-nhat-ruong-cua-ban.com"))()
+    end
+})
 
--- Tạo Tab mới
-local TabMoi = MakeTab({Name = "Hop Server"})
+-- 4. Tạo Tab số 3: Hop Server
+local TabMoi2 = MakeTab({Name = "Hop Server"})
 
--- Tạo nút bấm chạy script trong Tab mới
-AddButton(TabMoi, {
-    Name = "Scrip No Key",
+-- Tạo Nút trong Tab 3: Scrip No Key
+AddButton(TabMoi2, {
+    Name = "Scrip No Key", -- Bạn có thể sửa tên nút này theo ý muốn
     Callback = function()
-        -- Dán đoạn mã loadstring của script mới vào dưới đây
-        loadstring(game:HttpGet("https://link-script-moi-cua-ban.com"))()
+        -- Dán link script đổi server thực tế của bạn vào dưới đây thay cho link mẫu này
+        loadstring(game:HttpGet("https://link-script-hop-server-cua-ban.com"))()
     end
 })
