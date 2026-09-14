@@ -22,13 +22,14 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        -- 1. Khởi tạo nút thu nhỏ Menu (Phải để trên cùng)
 MinimizeButton({
-    Image = "rbxassetid://14704043690",
+    Image = "rbxassetid://14704043444", -- Đây là mã Image ID chuẩn của Mắt Sharingan
     Size = {60, 60},
-    Color = Color3.fromRGB(10, 10, 10),
+    Color = Color3.fromRGB(255, 255, 255), -- Bắt buộc để màu trắng để ảnh hiện đúng màu đỏ/đen của Sharingan
     Corner = true,
     Stroke = false,
     StrokeColor = Color3.fromRGB(255, 0, 0)
 })
+
 
 -- 2. Tạo Tab số 1: Script Farm
 local Tab1o = MakeTab({Name = "Script Farm"})
