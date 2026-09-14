@@ -42,7 +42,7 @@ AddButton(Tab1o, {
             JoinTeam = "Pirates", -- Pirates hoặc Marines
             Translator = true; -- true hoặc false
         }
-        loadstring(game:HttpGet("https://pastebin.com"))()(Settings)
+        loadstring(game:HttpGet("https://pastebin.com/raw/Hc2ZvUN5"))()(Settings)
     end
 })
 
