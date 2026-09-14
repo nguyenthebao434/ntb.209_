@@ -22,7 +22,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        -- 1. Khởi tạo nút thu nhỏ Menu (Phải để trên cùng)
 MinimizeButton({
-    Image = "https://cdn.discordapp.com/attachments/1549009027587899436/1549009084899000330/IMG_20260829_000743.jpg?ex=6aa922a1&is=6aa7d121&hm=0b144e2b2b61a7afc5240cd8676968f942799145dfc9959af636b15e842406e7&",
+    Image = "rbxassetid://14704043690",
     Size = {60, 60},
     Color = Color3.fromRGB(10, 10, 10),
     Corner = true,
